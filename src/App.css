@@ -2,6 +2,16 @@
   text-align: center;
 }
 
+.header {
+  background-color: yellow;
+}
+
+.followers-column {
+  background-color: red;
+  width: 500px;
+  height: 800px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +45,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.feed {
+  background-color: white;
+  width: 500px;
+}
+
+.suggested-box {
+  background-color: blue;
+  width: 400px;
+  height: 400px;
 }
